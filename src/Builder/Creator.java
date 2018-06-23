@@ -13,7 +13,8 @@ public class Creator {
         cb.createCar();
         cb.setColour();
         cb.setSpeed();
-      return   cb.getC();
+        Car c = cb.getC();
+        return c;
     }
 
 }

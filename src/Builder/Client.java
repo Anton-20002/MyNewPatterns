@@ -7,7 +7,8 @@ public class Client {
     public static void main(String[] args) {
         Creator cr = new Creator();
         cr.setCb(new Ford());
-        cr.build();
-
+        Car car = cr.build();
+        System.out.println(car.getSpeed());
+        System.out.println(car.getColour());
     }
 }

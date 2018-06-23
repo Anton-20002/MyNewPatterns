@@ -4,14 +4,15 @@ package Builder;
  * Created by Anton on 20.03.2018.
  */
 public class Ford extends CarBuilder{
+    public Ford() { super(); }
 
     @Override
     void setColour() {
-        System.out.println("RED");
+        c.setColour("Red");
     }
 
     @Override
     void setSpeed() {
-        System.out.println("200");
+        c.setSpeed(185);
     }
 }

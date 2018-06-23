@@ -5,8 +5,6 @@ package Facade;
  */
 public class Client {
 
-    Client client;
-
         private Rabbit r = new Rabbit();
         private Wolf w = new Wolf();
         private Owl o = new Owl();

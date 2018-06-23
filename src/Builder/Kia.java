@@ -4,15 +4,15 @@ package Builder;
  * Created by Anton on 20.03.2018.
  */
 public class Kia extends CarBuilder {
+    public Kia() { super();}
+
     @Override
     void setColour() {
-        System.out.println("Black");
+        c.setColour("Black");
     }
 
     @Override
-    void setSpeed() {
-        System.out.println("180");
-    }
+    void setSpeed() { c.setSpeed(200);}
 
 
 
